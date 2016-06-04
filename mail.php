@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- START Meta Tags -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Lantrix Web Studio">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keyword" content="">
+	<meta name="description" content="">
+	<!-- End Meta Tags -->
+	<!-- START CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<!-- END CSS -->
+	<!-- START Favicon -->
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="images/favicon/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="images/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- END Favicon -->
+	<!-- START скрипты -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/lightgallery.js"></script>
+	<script src="js/plugins-scroll.js"></script>
+	<!-- END скрипты -->
+	<title>Mail</title>
+<!--[if IE]>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <![endif]-->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body id="bgimage" class="bgfon">
+	<!-- START header -->
+	<header id="main-header">
+		<!-- START адаптивное выезжающее меню -->
+		<div class="container-2">
+			<div id="sidebar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="yacht.html">The yacht</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="specifications.html">Specifications</a></li>
+					<li><a href="destinations.html">Destinations</a></li>
+					<li><a href="activities.html">Activities</a></li>
+					<li><a href="food.html">Food</a></li>
+					<li><a href="prices.html">Price</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+				</ul>
+			</div>
+			<div class="main-content">
+				<div class="swipe-area"></div>
+				<a href="#" data-toggle=".container-2" id="sidebar-toggle">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</a>
+			</div>
+		</div>
+		<!-- END адаптивное выезжающее меню -->
+		<nav id="menu-top">
+			<ul class="nav-1">
+				<li>
+					<a class="hvr-underline-from-center" href="index.html">Home</a>
+				</li>
+				<li>
+					<a class="hvr-underline-from-center">About</a>
+					<ul class="dropdown drp-ul-1">
+						<li><a href="yacht.html">The yacht</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="specifications.html">Specifications</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="hvr-underline-from-center">Enjoy</a>
+					<ul class="dropdown drp-ul-2">
+						<li><a href="destinations.html">Destinations</a></li>
+						<li><a href="activities.html">Activities</a></li>
+						<li><a href="food.html">Food</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="hvr-underline-from-center" href="contacts.html">Contacts</a>
+					<ul class="dropdown drp-ul-3">
+						<li><a href="prices.html">Price</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="logo-main"><a href="index.html"><img src="images/logo-img.png" alt=""></a></div>
+	</header>
+	<!-- END header -->
+	<!-- START content -->
+	<section id="gal-info" class="main-op">
+
+		<div class="container">
+
+			<div class="txt-op">
+				<div class="order-msg">
+					<?php
+				$back = "<p><a href=\"javascript: history.back()\">Return</a></p>"; // возврат на страницу назад
+
+				if(!empty($_POST['name']) and !empty($_POST['phone']) and !empty($_POST['mail']) and !empty($_POST['message']))
+				{
+					$name = trim(strip_tags($_POST['name']));
+					$phone = trim(strip_tags($_POST['phone']));
+					$mail = trim(strip_tags($_POST['mail']));
+					$message = trim(strip_tags($_POST['message']));
+
+					mail('dev@lantrix.com.ua', 'Queen of Datcha Order', 
+						'Customer: '.$name.'<br />Tel. number: '.$phone.'<br />E-mail: '.$mail.'<br />
+						Message: '.$message,"Content-type:text/html;charset=UTF-8");
+
+					echo "Your message was successfully sent !<Br> You will get an answer soon<Br> $back"; // вывод сообщения при успешной отправки
+
+					exit;
+				} 
+				else {
+					echo "To send a message fill in all fields! $back"; // вывод сообщения при не заполненом поле 
+					exit;
+				}
+				?>
+			</div>
+			</div>
+
+		</div>
+
+	</section>
+	<!-- END content -->
+	<!-- START footer -->
+	<footer id="footer-content">
+		<div class="footer-logo">
+			<img class="ft-logo-img" src="images/logo-footer.png" alt="">
+		</div>
+		<div class="footer-dev">
+			<p>©2016 Created by Studio <a class="hvr-underline-from-center" title="создание сайта - студия Lantrix" href="https://lantrix.com.ua/" target="_blank"><span class="devname">Lantrix</span></a><a class="lantrix-logo" title="создание сайта - студия Lantrix" href="https://lantrix.com.ua/" target="_blank"></a></p>
+		</div>
+	</footer>
+	<!-- END footer -->
+</body>
+</html>
